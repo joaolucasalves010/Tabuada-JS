@@ -87,3 +87,11 @@ input[type="submit"] {
 #multiplication-operations .result {
     margin-left: 0.4rem;
 }
+
+input[type='submit']:hover {
+    transition: 0.3s;
+    color: #fff;
+    background-color: greenyellow;
+    cursor: pointer;
+    border: 1px solid #fbfbfb;
+}
